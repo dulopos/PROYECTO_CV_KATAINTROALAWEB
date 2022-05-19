@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(241, 223, 234);
+}
+
+.navbar ul {
+    list-style-type: none;
+    position: fixed;
+    background-color: paleturquoise;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+ul h2 {
+    text-align: center;
+    color: black;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    padding: 20px 15px 20px 15px;
+    display: block;
+}
+
+li a.active {
+    color: black;
+    background-color: pink;
+    padding: 0;
+}
+
+li a:hover:not(.active) {
+    color: black;
+    background-color: plum;
+    margin: 0;
+}
+
+.inicio-personal {
+    margin-left: 45%;
+    padding: 45px 16px;
+    height: 230px;
+}
+
+.inicio-personal img {
+    justify-content: center;
+    width: 320px;
+    height: 170px;
+}
+
+.inicio-personal h2 {
+    width: 325px;
+    color: rgb(0, 0, 0);
+    margin-top: 35px;
+}
+
+.inicio-personal-text {
+    margin-left: 15%;
+    margin-right: 4%;
+}
+
+.inicio-personal-text p {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.Estudios {
+    margin-left: 15%;
+    margin-right: 4%;
+}
+
+.Estudios h3 {
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+}
+
+.Estudios p {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.Habilidades {
+    margin-left: 15%;
+    margin-right: 4%;
+}
+
+.Habilidades h3 {
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+}
+
+.Habilidades p {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.Experiencia-laboral {
+    margin-left: 15%;
+    margin-right: 4%;
+}
+
+.Experiencia-laboral h3 {
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+}
+
+.Experiencia-laboral p {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.Hobbies {
+    margin-left: 15%;
+    margin-right: 4%;
+}
+
+.Hobbies h3 {
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+}
+
+.Hobbies p {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+}
+
+.resaltar {
+    font-weight: bold;
+}
